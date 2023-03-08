@@ -16,9 +16,7 @@ function AddAccount ({KEY, setLastRefresh}) {
             setClientName('');
             setClientSurname('');
             setLastRefresh(Date.now());
-        } else {
-            alert ("Klientas turi turėti vardą ir pavardę");
-        }
+        } else {}
     }
 
     return(<>

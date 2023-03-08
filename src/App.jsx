@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
         <AddAccount KEY={KEY} setLastRefresh={setLastRefresh}/>
-        <h2>Klientu sarasas:</h2>
+        <h2>Klientų sąrašas:</h2>
         <BankApp KEY={KEY} setLastRefresh={setLastRefresh} lastRefresh={lastRefresh}/>
     </div>
   );

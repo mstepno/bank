@@ -42,7 +42,7 @@ function BankApp({ KEY, setLastRefresh, lastRefresh }) {
     fundsWithID.forEach((c) => {
       delete c.clientName;
       delete c.clientSurname;
-      c.funds = 0;
+      c.funds = '';
     });
     setFundChange(fundsWithID);
   }, [KEY, lastRefresh]);
